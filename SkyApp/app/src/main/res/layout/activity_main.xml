@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/sky"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="20dp"
+    android:layout_above="@+id/buttonlayout"
+    />
+ <LinearLayout
+     android:id="@+id/buttonlayout"
+     android:orientation="horizontal"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+  <Button
+      android:id="@+id/login_btn"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:text="Đăng Nhập"
+      android:background="@color/colorPrimary"
+      android:textColor="#fff"
+      android:layout_marginEnd="10dp"
+      />
+  <Button
+      android:id="@+id/register_btn"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:text="Đăng Ký"
+      android:background="@color/colorPrimary"
+      android:textColor="#fff"
+      />
+
+ </LinearLayout>
+
+</RelativeLayout>

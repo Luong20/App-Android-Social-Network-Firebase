@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851567403889",
+    "firebase_url": "https://sky-app-f7da4.firebaseio.com",
+    "project_id": "sky-app-f7da4",
+    "storage_bucket": "sky-app-f7da4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851567403889:android:f473bea031b3fcde2d8cd0",
+        "android_client_info": {
+          "package_name": "com.example.skyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851567403889-t1ieqtp9g0142jucchbg8dppj6318ig9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADKu8xN-T8O3MXd67jO8Dd9EVqMEcozbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851567403889-t1ieqtp9g0142jucchbg8dppj6318ig9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
